@@ -1,0 +1,297 @@
+body
+{
+padding: 0;
+background-color: black;
+color: white;
+text-align: center;
+}
+h1,p
+{
+  padding: 5px 15px;
+}
+p
+{
+  font-family: 'Merriweather-light', serif;
+  color: #d0d1c7;
+}
+h1
+{
+  font-family: 'IM Fell Great Primer SC', serif;
+  text-shadow:
+      0 0 7px #01a5e9,
+      0 0 10px #01a5e9,
+      0 0 21px #01a5e9,
+      0 0 42px #4099be,
+      0 0 82px #347b98,
+      0 0 92px #347b98,
+      0 0 102px #347b98;
+  font-size: 1.4rem;
+}
+p
+{
+  font-size: 0.8rem;
+}
+h6
+{
+  font-size: 0.8rem;
+  padding: 50px 0 0 0;
+  text-align: center;
+}
+a
+{
+  text-align: center;
+  text-decoration: none;
+}
+.logo
+{
+  padding: 10px 10px;
+  height: 50px;
+  width: auto;
+}
+.navbar {
+  background-color: black;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+.navbar-brand
+{
+  color: lightblue;
+}
+.navbar a
+{
+  text-align: center;
+}
+#HOME
+{
+  background-image: url("C:/Users/navin/Desktop/Web Developing/MetaQ/images/crypto.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center top;
+  background-size: cover;
+  padding: 50px 0;
+  margin-bottom: 30px;
+}
+
+#details
+{
+  position: relative;
+  padding: 30px;
+}
+.hero-img
+{
+
+  height: auto;
+  width: 80%;
+  padding: 10px 0;
+}
+.facility-img
+{
+  height: auto;
+  width: 80%;
+  padding: 10px 0;
+}
+
+.hoodie-img
+{
+  height: auto;
+  width: 80%;
+  border-radius: 20px;
+  box-shadow:
+  0 0 7px #01a5e9,
+  0 0 10px #01a5e9,
+  0 0 21px #01a5e9,
+  0 0 42px #4099be;
+  margin-bottom: 20px;
+}
+.hoodie-img:hover
+{
+  width: 82%;
+}
+.download1
+{
+  background-color: blue;
+  color: white;
+  margin: 0 2px;
+  border-radius: 20px;
+}
+.download-nav
+{
+  background-color: blue;
+  color: white;
+  padding: 0 100px;
+  margin: 10px 0;
+  border-radius: 20px;
+}
+#about,#developers,#signin
+{
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #6b6b61;
+  color: white;
+}
+#about p,#developers p,#signin p
+{
+color: white
+}
+#developers a
+{
+  text-decoration: none;
+  color: white;
+}
+#developers a:hover
+{
+  text-decoration: none;
+  color: black;
+}
+#shop
+{
+  padding: 20px 0;
+  margin-top: 20px;
+}
+#support
+{
+  align-items:center;
+}
+.row1
+{
+  padding: 10px 10px;
+}
+.icon-img
+{
+  width: 100px;
+}
+#footer
+{
+  text-align: left;
+  padding: 20px 30px;
+  margin-top: 20px 10px;
+}
+#footer h3
+{
+  font-size: 0.8rem;
+  padding: 10px 0 5px 0;
+}
+#footer a
+{
+  font-size: 0.8rem;
+  margin: 5px 0 0 0;
+  color: orange;
+}
+#signin,#about
+{
+  padding: 30px 0px;
+}
+
+/* Style for small then tablet and big than desktop size ( LAPTOP SIZE ) */
+@media screen and (min-width:768px) and (max-width:1440px)
+{
+
+  .download-nav
+  {
+    padding: 0 10px;
+  }
+  .hero-img
+  {
+    padding: 0 0 10px 20px;
+    height: auto;
+    width: 100%;
+  }
+  .detail-sec
+  {
+    padding-top: 90px;
+  }
+  .fac-sec
+  {
+    padding-top: 80px
+  }
+  .facility-img
+  {
+    height: auto;
+    width: 70%;
+    margin: 20px;
+    padding: 10px 5px;
+  }
+  .hoodie-img
+  {
+    height: auto;
+    width: 70%;
+  }
+  h1
+  {
+    font-size: 2.6rem;
+  }
+  p
+  {
+    font-size: 1.3rem;
+  }
+  .dev-sec
+  {
+    padding: 70px 0;
+    margin-top: 20px;
+  }
+  .icon-img
+  {
+    width:200px
+  }
+  #footer h3
+  {
+    font-size: 1rem;
+    padding: 10px 0 5px 0;
+  }
+  #footer a
+  {
+    font-size: 0.8rem;
+  }
+}
+/* Style for small then laptop and big than mobile size ( TABLET SIZE ) */
+@media screen and (min-width:425px) and (max-width:768px)
+{
+
+    .download-nav
+    {
+      padding: 0 10px;
+    }
+    .hero-img
+    {
+      padding: 0 0 10px 20px;
+      height: auto;
+      width: 90%;
+    }
+    .facility-img,.hoodie-img
+    {
+      height: auto;
+      width: 70%;
+    }
+    .detail-sec
+    {
+      padding-top: 50px;
+    }
+    h1
+    {
+      font-size: 2rem;
+    }
+    p
+    {
+      font-size: 1.2rem;
+    }
+    .dev-sec
+    {
+      padding: 20px 0;
+      margin-top: 20px;
+    }
+    .icon-img
+    {
+      width:175px;
+    }
+    #footer h3
+    {
+      font-size: 1rem;
+      padding: 10px 0 5px 0;
+    }
+    #footer a
+    {
+      font-size: 1rem;
+    }
+
+}
